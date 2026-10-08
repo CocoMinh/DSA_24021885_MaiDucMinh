@@ -54,7 +54,7 @@ void xoaCuoi (int &n){
 
 void xoaGiua (int a[], int &n, int x, int k){
 	for (int i=x, i<n-1; i++){
-		a[i] = a[i+!];
+		a[i] = a[i+1];
 	}
 	a[x] = k;
 	n--;
