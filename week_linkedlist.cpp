@@ -16,7 +16,7 @@ Node* insertHead(Node* head, int x){
 	return p;
 }
 
-Node* Insert K (Node* head, int x, int K){
+Node* insertK (Node* head, int x, int K){
 	// Tao mot mang moi xong gan cac node vao mang, cho mang chay den vi tri K roi dung a[i] = a[i+1], n++
 	if (K == 0){
 		head = InsertHead(head, x);
