@@ -14,7 +14,7 @@ void swim(int* a, int k){
 	}
 }
 
-void insert(int* a, int&n, int x){
+void insert(int* a, int& n, int x){
 	a[++n] = x;
 	swim(a,n);
 }
